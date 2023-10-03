@@ -149,7 +149,7 @@ local idx; idx = hookmetamethod(game, "__newindex", function(self, i, v)
 end)
 
 if not ESP then
-    getgenv().ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/xiorn/esp.lua/main/rp%20fucking%20esp?token=GHSAT0AAAAAACIMAJF5N5GEGJH3S3M6SRT4ZI3U7AA"))()
+    getgenv().ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/xiorn/rush-point-err/main/esp"))()
 
     ESP.Tracers = true
     ESP:Toggle(true)
